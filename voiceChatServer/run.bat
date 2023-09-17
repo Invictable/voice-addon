@@ -1,0 +1,1 @@
+"C:\Program Files\Java\jdk-17.0.3.1\bin\java.exe" -Xmx9024M -Xms9024M -jar server.jar nogui

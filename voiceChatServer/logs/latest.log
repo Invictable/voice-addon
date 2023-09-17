@@ -1,0 +1,51 @@
+[14:05:35] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[14:05:36] [ServerMain/INFO]: Loaded 7 recipes
+[14:05:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[14:05:36] [Server thread/INFO]: Loading properties
+[14:05:37] [Server thread/INFO]: This server is running Silvera version git-Silvera-"e6f3089" (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: e6f3089 on 1.20.1)
+[14:05:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[14:05:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[14:05:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[14:05:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[14:05:37] [Server thread/INFO]: Default game type: SURVIVAL
+[14:05:37] [Server thread/INFO]: Generating keypair
+[14:05:37] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:05:37] [Server thread/INFO]: Using default channel type
+[14:05:37] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[14:05:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[14:05:37] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.15
+[14:05:37] [Server thread/INFO]: [example_plugin] Loading server plugin example_plugin v1.0.0
+[14:05:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:05:37] [Server thread/INFO]: Preparing level "world"
+[14:05:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:05:38] [Server thread/INFO]: Time elapsed: 124 ms
+[14:05:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[14:05:38] [Server thread/INFO]: Time elapsed: 20 ms
+[14:05:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[14:05:38] [Server thread/INFO]: Time elapsed: 17 ms
+[14:05:38] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.15
+[14:05:38] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
+[14:05:38] [Server thread/INFO]: [voicechat] Compatibility version 17
+[14:05:38] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[14:05:38] [Server thread/INFO]: [example_plugin] Enabling example_plugin v1.0.0
+[14:05:38] [Server thread/INFO]: [voice-record] Successfully registered example plugin
+[14:05:38] [Server thread/INFO]: Running delayed init tasks
+[14:05:38] [Server thread/INFO]: Done (1.308s)! For help, type "help"
+[14:05:38] [Server thread/INFO]: Timings Reset
+[14:05:38] [Server thread/INFO]: [voicechat] Loading plugins
+[14:05:38] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[14:05:38] [Server thread/INFO]: [voicechat] Initializing plugins
+[14:05:38] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[14:05:38] [Server thread/INFO]: [voicechat] Registering events for voice-record
+[14:05:38] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[14:05:38] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[14:05:41] [User Authenticator #0/INFO]: UUID of player Invictable is 120a6ace-db7e-4774-9738-a76469f5f0a7
+[14:05:41] [Server thread/INFO]: Invictable joined the game
+[14:05:41] [Server thread/INFO]: Invictable[/127.0.0.1:61216] logged in with entity id 269 at ([world]-62.14943747614543, 70.0, 132.74328203501315)
+[14:05:41] [Server thread/INFO]: [voicechat] Received secret request of Invictable (17)
+[14:05:41] [Server thread/INFO]: [voicechat] Sent secret to Invictable
+[14:05:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 120a6ace-db7e-4774-9738-a76469f5f0a7
+[14:05:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 120a6ace-db7e-4774-9738-a76469f5f0a7
+[14:05:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Invictable (120a6ace-db7e-4774-9738-a76469f5f0a7) successfully connected to voice chat

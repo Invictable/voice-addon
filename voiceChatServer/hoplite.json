@@ -1,0 +1,6 @@
+{
+  "checkLightLevelsForSpawners": "true",
+  "mineshaftMinYLevel": "-1",
+  "ticksBeforeKillerReset": "100",
+  "goldenAppleRegenTicks": "100"
+}
