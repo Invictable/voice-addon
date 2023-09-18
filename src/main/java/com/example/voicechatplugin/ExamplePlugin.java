@@ -57,8 +57,8 @@ public final class ExamplePlugin extends JavaPlugin implements Listener
                 {
                     for(Player p : Bukkit.getOnlinePlayers())
                     {
-                        byte[] audio = voicechatPlugin.playerSounds.get(p.getUniqueId());
-                        voicechatPlugin.playerSounds.put(p.getUniqueId(), new byte[256*600]);
+                        short[] audio = voicechatPlugin.playerSounds.get(p.getUniqueId());
+                        voicechatPlugin.playerSounds.put(p.getUniqueId(), new short[960*600]);
                         try {
                             if(audio != null) {
                                 voicechatPlugin.saveAudioFile(audio, p.getUniqueId());

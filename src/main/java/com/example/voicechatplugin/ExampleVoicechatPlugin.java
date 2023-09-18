@@ -24,7 +24,7 @@ import java.util.UUID;
 
 public class ExampleVoicechatPlugin implements VoicechatPlugin {
     int time = 0;
-    HashMap<UUID, byte[]> playerSounds = new HashMap<>();
+    HashMap<UUID, short[]> playerSounds = new HashMap<>();
     static VoicechatServerApi vcServer;
     static StaticSoundPacket.Builder pBuilder;
     static VoicechatApi api;
@@ -83,23 +83,29 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
 
         OpusDecoder decoder = api.createDecoder();
         byte[] PCMdata = packet.getOpusEncodedData();
+        short[] audio = decoder.decode(PCMdata);
 
         if(playerSounds.containsKey(player.getUniqueId())) {
-            byte[] audio = playerSounds.get(player.getUniqueId());
-            int offset = 256*time;
-            audio[offset] = ((Integer)PCMdata.length).byteValue();
-            for(int i = 0; i < PCMdata.length; i++)
+            short[] audio2 = playerSounds.get(player.getUniqueId());
+            int offset = 960*time;
+            for(int i = 0; i < audio.length; i++)
             {
-                audio[offset+i+1] = PCMdata[i];
+                audio2[offset+i] = audio[i];
             }
         }
 
     }
 
-    public void saveAudioFile(byte[] audio, UUID id) throws IOException {
+    public void saveAudioFile(short[] audio, UUID id) throws IOException {
         File file = new File(id.toString() + ".opus");
         OutputStream out = new FileOutputStream(file);
-        out.write(audio);
+        byte[] bOut = new byte[audio.length*2];
+        for(int i = 0; i < audio.length; i++)
+        {
+            bOut[i*2] = (byte)((audio[i] & 0xff00) >> 8);
+            bOut[i*2+1] = (byte)(audio[i] & 0xff);
+        }
+        out.write(bOut);
         out.close();
     }
 }
