@@ -4,15 +4,19 @@ import de.maxhenkel.voicechat.api.BukkitVoicechatService;
 import de.maxhenkel.voicechat.api.Group;
 import de.maxhenkel.voicechat.api.events.EventRegistration;
 import de.maxhenkel.voicechat.api.events.MicrophonePacketEvent;
+import de.maxhenkel.voicechat.api.mp3.Mp3Encoder;
 import de.maxhenkel.voicechat.api.packets.MicrophonePacket;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bukkit.scheduler.BukkitRunnable;
 
 import javax.annotation.Nullable;
+import java.io.IOException;
 
 public final class ExamplePlugin extends JavaPlugin implements Listener
 {
@@ -33,6 +37,8 @@ public final class ExamplePlugin extends JavaPlugin implements Listener
         } else {
             LOGGER.info("Failed to register example plugin");
         }
+        new TestCommand(this);
+        soundLoop();
     }
     @Override
     public void onDisable() {
@@ -42,5 +48,28 @@ public final class ExamplePlugin extends JavaPlugin implements Listener
         }
     }
 
+    private void soundLoop() {
+        new BukkitRunnable() {
+            @Override
+            public void run() {
+                voicechatPlugin.time = (voicechatPlugin.time + 1) % 600;
+                if(voicechatPlugin.time == 0)
+                {
+                    for(Player p : Bukkit.getOnlinePlayers())
+                    {
+                        byte[] audio = voicechatPlugin.playerSounds.get(p.getUniqueId());
+                        voicechatPlugin.playerSounds.put(p.getUniqueId(), new byte[256*600]);
+                        try {
+                            if(audio != null) {
+                                voicechatPlugin.saveAudioFile(audio, p.getUniqueId());
+                            }
+                        } catch (IOException e) {
+
+                        }
+                    }
+                }
+            }
+        }.runTaskTimer(this, 0, 1);
+    }
 
 }

@@ -7,3 +7,6 @@ authors: [ "Example Author" ]
 description: A Simple Voice Chat API plugin example
 website: https://example.com
 depend: [ voicechat ]
+commands:
+  test:
+    description: Test if the plugin is running

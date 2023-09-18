@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "0ad3467b-1c3e-4032-9781-b0583b3c145b",
+    "name": "Optimal",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

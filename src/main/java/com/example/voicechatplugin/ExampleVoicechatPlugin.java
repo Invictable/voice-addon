@@ -2,19 +2,32 @@ package com.example.voicechatplugin;
 
 import de.maxhenkel.voicechat.api.VoicechatApi;
 import de.maxhenkel.voicechat.api.VoicechatPlugin;
+import de.maxhenkel.voicechat.api.VoicechatServerApi;
 import de.maxhenkel.voicechat.api.events.EventRegistration;
 import de.maxhenkel.voicechat.api.events.MicrophonePacketEvent;
+import de.maxhenkel.voicechat.api.events.VoicechatServerStartedEvent;
 import de.maxhenkel.voicechat.api.mp3.Mp3Encoder;
 import de.maxhenkel.voicechat.api.opus.OpusDecoder;
 import de.maxhenkel.voicechat.api.packets.MicrophonePacket;
+import de.maxhenkel.voicechat.api.packets.StaticSoundPacket;
 import org.bukkit.entity.Player;
+import org.bukkit.scheduler.BukkitRunnable;
 
 import javax.sound.sampled.AudioFormat;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.UUID;
 
 public class ExampleVoicechatPlugin implements VoicechatPlugin {
-
-    VoicechatApi api;
+    int time = 0;
+    HashMap<UUID, byte[]> playerSounds = new HashMap<>();
+    static VoicechatServerApi vcServer;
+    static StaticSoundPacket.Builder pBuilder;
+    static VoicechatApi api;
     /**
      * @return the unique ID for this voice chat plugin
      */
@@ -40,29 +53,53 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
      */
     @Override
     public void registerEvents(EventRegistration registration) {
-         registration.registerEvent(MicrophonePacketEvent.class, this::onMicrophone);
+        registration.registerEvent(MicrophonePacketEvent.class, this::onMicrophone);
+        registration.registerEvent(VoicechatServerStartedEvent.class, this::onServerStart);
+    }
+
+    private void onServerStart(VoicechatServerStartedEvent event)
+    {
+        vcServer = event.getVoicechat();
     }
 
     private void onMicrophone(MicrophonePacketEvent event)
     {
+        pBuilder = event.getPacket().staticSoundPacketBuilder();
         // The connection might be null if the event is caused by other means
         if (event.getSenderConnection() == null)
         {
             return;
         }
+
         // Cast the generic player object of the voice chat API to an actual bukkit player
         // This object should always be a bukkit player object on bukkit based servers
-        if (!(event.getSenderConnection().getPlayer().getPlayer() instanceof Player player))
+        if (!(event.getSenderConnection().getPlayer().getPlayer() instanceof Player))
         {
             return;
         }
+        Player player = (Player) event.getSenderConnection().getPlayer().getPlayer();
 
         MicrophonePacket packet = event.getPacket();
-        player.sendMessage(Arrays.toString(packet.getOpusEncodedData()));
+
         OpusDecoder decoder = api.createDecoder();
-        short[] PCMdata = decoder.decode(packet.getOpusEncodedData());
-       // Mp3Encoder encoder = api.createMp3Encoder(),1,1,"output.mp3");
+        byte[] PCMdata = packet.getOpusEncodedData();
 
+        if(playerSounds.containsKey(player.getUniqueId())) {
+            byte[] audio = playerSounds.get(player.getUniqueId());
+            int offset = 256*time;
+            audio[offset] = ((Integer)PCMdata.length).byteValue();
+            for(int i = 0; i < PCMdata.length; i++)
+            {
+                audio[offset+i+1] = PCMdata[i];
+            }
+        }
 
+    }
+
+    public void saveAudioFile(byte[] audio, UUID id) throws IOException {
+        File file = new File(id.toString() + ".opus");
+        OutputStream out = new FileOutputStream(file);
+        out.write(audio);
+        out.close();
     }
 }

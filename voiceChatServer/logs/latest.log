@@ -1,51 +1,1996 @@
-[14:05:35] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[14:05:36] [ServerMain/INFO]: Loaded 7 recipes
-[14:05:36] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[14:05:36] [Server thread/INFO]: Loading properties
-[14:05:37] [Server thread/INFO]: This server is running Silvera version git-Silvera-"e6f3089" (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: e6f3089 on 1.20.1)
-[14:05:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:05:37] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:05:37] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[22:36:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:36:06] [ServerMain/INFO]: Loaded 7 recipes
+[22:36:07] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:36:07] [Server thread/INFO]: Loading properties
+[22:36:07] [Server thread/INFO]: This server is running Silvera version git-Silvera-"e6f3089" (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: e6f3089 on 1.20.1)
+[22:36:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:36:07] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:36:07] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[14:05:37] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
-[14:05:37] [Server thread/INFO]: Default game type: SURVIVAL
-[14:05:37] [Server thread/INFO]: Generating keypair
-[14:05:37] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:05:37] [Server thread/INFO]: Using default channel type
-[14:05:37] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[14:05:37] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[14:05:37] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.15
-[14:05:37] [Server thread/INFO]: [example_plugin] Loading server plugin example_plugin v1.0.0
-[14:05:37] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[14:05:37] [Server thread/INFO]: Preparing level "world"
-[14:05:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:05:38] [Server thread/INFO]: Time elapsed: 124 ms
-[14:05:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:05:38] [Server thread/INFO]: Time elapsed: 20 ms
-[14:05:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:05:38] [Server thread/INFO]: Time elapsed: 17 ms
-[14:05:38] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.15
-[14:05:38] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
-[14:05:38] [Server thread/INFO]: [voicechat] Compatibility version 17
-[14:05:38] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
-[14:05:38] [Server thread/INFO]: [example_plugin] Enabling example_plugin v1.0.0
-[14:05:38] [Server thread/INFO]: [voice-record] Successfully registered example plugin
-[14:05:38] [Server thread/INFO]: Running delayed init tasks
-[14:05:38] [Server thread/INFO]: Done (1.308s)! For help, type "help"
-[14:05:38] [Server thread/INFO]: Timings Reset
-[14:05:38] [Server thread/INFO]: [voicechat] Loading plugins
-[14:05:38] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
-[14:05:38] [Server thread/INFO]: [voicechat] Initializing plugins
-[14:05:38] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
-[14:05:38] [Server thread/INFO]: [voicechat] Registering events for voice-record
-[14:05:38] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
-[14:05:38] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[14:05:41] [User Authenticator #0/INFO]: UUID of player Invictable is 120a6ace-db7e-4774-9738-a76469f5f0a7
-[14:05:41] [Server thread/INFO]: Invictable joined the game
-[14:05:41] [Server thread/INFO]: Invictable[/127.0.0.1:61216] logged in with entity id 269 at ([world]-62.14943747614543, 70.0, 132.74328203501315)
-[14:05:41] [Server thread/INFO]: [voicechat] Received secret request of Invictable (17)
-[14:05:41] [Server thread/INFO]: [voicechat] Sent secret to Invictable
-[14:05:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 120a6ace-db7e-4774-9738-a76469f5f0a7
-[14:05:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 120a6ace-db7e-4774-9738-a76469f5f0a7
-[14:05:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Invictable (120a6ace-db7e-4774-9738-a76469f5f0a7) successfully connected to voice chat
+[22:36:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and gen parallelism of 4 threads
+[22:36:07] [Server thread/INFO]: Default game type: SURVIVAL
+[22:36:07] [Server thread/INFO]: Generating keypair
+[22:36:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:36:07] [Server thread/INFO]: Using default channel type
+[22:36:07] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[22:36:07] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[22:36:08] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.4.15
+[22:36:08] [Server thread/INFO]: [example_plugin] Loading server plugin example_plugin v1.0.0
+[22:36:08] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:36:08] [Server thread/INFO]: Preparing level "world"
+[22:36:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:36:09] [Server thread/INFO]: Time elapsed: 232 ms
+[22:36:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:36:09] [Server thread/INFO]: Time elapsed: 24 ms
+[22:36:09] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:36:09] [Server thread/INFO]: Time elapsed: 18 ms
+[22:36:09] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.15
+[22:36:09] [Server thread/INFO]: [voicechat] Initializing compatibility for Bukkit version 1.20.1-R0.1
+[22:36:09] [Server thread/INFO]: [voicechat] Compatibility version 17
+[22:36:09] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[22:36:09] [Server thread/INFO]: [example_plugin] Enabling example_plugin v1.0.0
+[22:36:09] [Server thread/INFO]: [voice-record] Successfully registered example plugin
+[22:36:09] [Server thread/INFO]: Running delayed init tasks
+[22:36:09] [Server thread/INFO]: Done (1.938s)! For help, type "help"
+[22:36:09] [Server thread/INFO]: Timings Reset
+[22:36:09] [Server thread/INFO]: [voicechat] Loading plugins
+[22:36:09] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[22:36:09] [Server thread/INFO]: [voicechat] Initializing plugins
+[22:36:09] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[22:36:09] [Server thread/INFO]: [voicechat] Registering events for voice-record
+[22:36:09] [Server thread/INFO]: [voicechat] Using default voicechat socket implementation
+[22:36:09] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[22:36:11] [User Authenticator #0/INFO]: UUID of player Optimal is 0ad3467b-1c3e-4032-9781-b0583b3c145b
+[22:36:12] [Server thread/INFO]: Optimal joined the game
+[22:36:12] [Server thread/INFO]: Optimal[/127.0.0.1:23230] logged in with entity id 76 at ([world]-326.09117535627706, 107.86787180920908, 155.2524561630332)
+[22:36:12] [Server thread/INFO]: [voicechat] Received secret request of Optimal (17)
+[22:36:12] [Server thread/INFO]: [voicechat] Sent secret to Optimal
+[22:36:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0ad3467b-1c3e-4032-9781-b0583b3c145b
+[22:36:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0ad3467b-1c3e-4032-9781-b0583b3c145b
+[22:36:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Optimal (0ad3467b-1c3e-4032-9781-b0583b3c145b) successfully connected to voice chat
+[22:36:15] [Server thread/INFO]: Optimal issued server command: /test
+[22:37:19] [Async Chat Thread - #2/INFO]: <Optimal> a
+[22:37:22] [Server thread/INFO]: Optimal issued server command: /test
+[22:37:41] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:41] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:41] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:41] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:41] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:41] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at com.example.voicechatplugin.TestCommand$1.run(TestCommand.java:55) ~[example-plugin-1.0.0.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:101) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1480) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:447) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1394) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1171) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:318) ~[silvera-1.20.1.jar:git-Silvera-"e6f3089"]
+	at java.lang.Thread.run(Thread.java:1589) ~[?:?]
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:42] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:43] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:44] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:45] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:46] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:47] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:48] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:49] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:50] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:51] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:52] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:53] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:54] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:55] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:56] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:57] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:58] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:37:59] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:00] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:01] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:02] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:03] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:04] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:05] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:06] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:07] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:08] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:09] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:10] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:11] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Async Chat Thread - #1/INFO]: <Optimal> a
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:12] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:13] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:14] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:15] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:16] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:17] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:18] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:19] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:20] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:21] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:22] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:23] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:24] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/WARN]: [example_plugin] Task #4 for example_plugin v1.0.0 generated an exception
+java.lang.ArrayIndexOutOfBoundsException: null
+[22:38:25] [Server thread/INFO]: Stopping the server
+[22:38:25] [Server thread/INFO]: Stopping server
+[22:38:25] [Server thread/INFO]: [example_plugin] Disabling example_plugin v1.0.0
+[22:38:25] [Server thread/INFO]: [voice-record] Successfully unregistered example plugin
+[22:38:25] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.15
+[22:38:25] [Server thread/INFO]: Saving players
+[22:38:25] [Server thread/INFO]: Optimal lost connection: Server closed
+[22:38:25] [Server thread/INFO]: Optimal left the game
+[22:38:26] [Server thread/INFO]: Saving worlds
+[22:38:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:38:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[22:38:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[22:38:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[22:38:27] [Server thread/INFO]: [ChunkHolderManager] Saved 1458 block chunks, 1346 entity chunks, 0 poi chunks in world 'world' in 1.86s
+[22:38:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:38:28] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:38:28] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[22:38:28] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[22:38:28] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[22:38:29] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.45s
+[22:38:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:38:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:38:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[22:38:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[22:38:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[22:38:29] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.09s
+[22:38:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:38:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:38:30] [Server thread/INFO]: Flushing Chunk IO
+[22:38:30] [Server thread/INFO]: Closing Thread Pool
+[22:38:30] [Server thread/INFO]: Closing Server
