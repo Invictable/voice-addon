@@ -18,6 +18,8 @@ import org.bukkit.scheduler.BukkitRunnable;
 import javax.annotation.Nullable;
 import java.io.File;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.UUID;
 
 public final class ExamplePlugin extends JavaPlugin implements Listener
 {
@@ -50,21 +52,23 @@ public final class ExamplePlugin extends JavaPlugin implements Listener
     }
 
     private void soundLoop() {
+        ExamplePlugin plugin = this;
         new BukkitRunnable() {
             @Override
             public void run() {
                 voicechatPlugin.time = (voicechatPlugin.time + 1) % 600;
-                System.out.println(voicechatPlugin.time);
                 if(voicechatPlugin.time == 0)
                 {
+                    HashMap<UUID, short[]> temp = voicechatPlugin.playerSounds;
+                    voicechatPlugin.playerSounds = new HashMap<>();
                     for(Player p : Bukkit.getOnlinePlayers())
                     {
-                        short[] audio = voicechatPlugin.playerSounds.get(p.getUniqueId());
+                        short[] audio = temp.get(p.getUniqueId());
                         voicechatPlugin.playerSounds.put(p.getUniqueId(), new short[(int)(960.0*600.0*2.4)]);
-                        voicechatPlugin.lastSend.put(p.getUniqueId(), new int[]{0});
+                        voicechatPlugin.lastSend.put(p.getUniqueId(), 0);
                         try {
                             if(audio != null) {
-                                voicechatPlugin.rawToWave(audio, new File(p.getUniqueId().toString() + ".wav"));
+                                voicechatPlugin.rawToWave(audio, new File(plugin.getDataFolder(), p.getUniqueId().toString() + ".wav"));
                             }
                         } catch (IOException e) {
 

@@ -24,7 +24,7 @@ import java.util.UUID;
 public class ExampleVoicechatPlugin implements VoicechatPlugin {
     int time = 0;
     HashMap<UUID, short[]> playerSounds = new HashMap<>();
-    HashMap<UUID, int[]> lastSend = new HashMap<>();
+    HashMap<UUID, Integer> lastSend = new HashMap<>();
     static VoicechatServerApi vcServer;
     static StaticSoundPacket.Builder pBuilder;
     static VoicechatApi api;
@@ -92,11 +92,10 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
 
         if(playerSounds.containsKey(player.getUniqueId())) {
             short[] audio2 = playerSounds.get(player.getUniqueId());
-            int[] send = lastSend.get(player.getUniqueId());
-            int offset = 960*send[0];
-            System.out.println(audio.length);
+            int send = lastSend.get(player.getUniqueId());
+            int offset = 960*send;
 
-            send[0] += 1;
+            lastSend.put(player.getUniqueId(), send+1);
 
             for(int i = 0; i < audio.length; i++)
             {
@@ -158,8 +157,22 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
     }
 
     public void rawToWave(short[] audio, final File waveFile) throws IOException {
-        byte[] rawData = new byte[audio.length*2];
-        final int RECORDER_SAMPLERATE = 1600;
+        int j = audio.length-1;
+        while(j >= 0 && audio[j] == 0)
+        {
+            j--;
+        }
+        j += 1;
+
+        short[] temp = new short[j];
+        for(int i = 0; i < temp.length; i++)
+        {
+            temp[i] = audio[i];
+        }
+        audio = temp;
+
+        byte[] rawData = new byte[(j+1)*2];
+        final int RECORDER_SAMPLERATE = 1800;
         for (int i = 0; i < audio.length; i++) {
             rawData[i * 2] = (byte) (audio[i] & 0x00FF);
             rawData[(i * 2) + 1] = (byte) (audio[i] >> 8);
