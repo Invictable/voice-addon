@@ -16,6 +16,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import javax.annotation.Nullable;
+import java.io.File;
 import java.io.IOException;
 
 public final class ExamplePlugin extends JavaPlugin implements Listener
@@ -53,15 +54,17 @@ public final class ExamplePlugin extends JavaPlugin implements Listener
             @Override
             public void run() {
                 voicechatPlugin.time = (voicechatPlugin.time + 1) % 600;
+                System.out.println(voicechatPlugin.time);
                 if(voicechatPlugin.time == 0)
                 {
                     for(Player p : Bukkit.getOnlinePlayers())
                     {
                         short[] audio = voicechatPlugin.playerSounds.get(p.getUniqueId());
-                        voicechatPlugin.playerSounds.put(p.getUniqueId(), new short[960*600]);
+                        voicechatPlugin.playerSounds.put(p.getUniqueId(), new short[(int)(960.0*600.0*2.4)]);
+                        voicechatPlugin.lastSend.put(p.getUniqueId(), new int[]{0});
                         try {
                             if(audio != null) {
-                                voicechatPlugin.saveAudioFile(audio, p.getUniqueId());
+                                voicechatPlugin.rawToWave(audio, new File(p.getUniqueId().toString() + ".wav"));
                             }
                         } catch (IOException e) {
 

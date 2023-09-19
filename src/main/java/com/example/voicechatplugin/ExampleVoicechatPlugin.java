@@ -14,10 +14,9 @@ import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import javax.sound.sampled.AudioFormat;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import java.io.*;
+import java.nio.ByteBuffer;
+import java.nio.ByteOrder;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.UUID;
@@ -25,9 +24,14 @@ import java.util.UUID;
 public class ExampleVoicechatPlugin implements VoicechatPlugin {
     int time = 0;
     HashMap<UUID, short[]> playerSounds = new HashMap<>();
+    HashMap<UUID, int[]> lastSend = new HashMap<>();
     static VoicechatServerApi vcServer;
     static StaticSoundPacket.Builder pBuilder;
     static VoicechatApi api;
+    OpusDecoder decoder;
+    private static final short MAX_AMPLIFICATION = Short.MAX_VALUE - 1;
+    private final float[] maxVolumes = new float[50];
+    private int index;
     /**
      * @return the unique ID for this voice chat plugin
      */
@@ -44,6 +48,7 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
     @Override
     public void initialize(VoicechatApi api_) {
         api = api_;
+        decoder = api.createDecoder();
     }
 
     /**
@@ -77,17 +82,22 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
         {
             return;
         }
+
         Player player = (Player) event.getSenderConnection().getPlayer().getPlayer();
 
         MicrophonePacket packet = event.getPacket();
 
-        OpusDecoder decoder = api.createDecoder();
         byte[] PCMdata = packet.getOpusEncodedData();
         short[] audio = decoder.decode(PCMdata);
 
         if(playerSounds.containsKey(player.getUniqueId())) {
             short[] audio2 = playerSounds.get(player.getUniqueId());
-            int offset = 960*time;
+            int[] send = lastSend.get(player.getUniqueId());
+            int offset = 960*send[0];
+            System.out.println(audio.length);
+
+            send[0] += 1;
+
             for(int i = 0; i < audio.length; i++)
             {
                 audio2[offset+i] = audio[i];
@@ -96,16 +106,112 @@ public class ExampleVoicechatPlugin implements VoicechatPlugin {
 
     }
 
-    public void saveAudioFile(short[] audio, UUID id) throws IOException {
-        File file = new File(id.toString() + ".opus");
-        OutputStream out = new FileOutputStream(file);
-        byte[] bOut = new byte[audio.length*2];
-        for(int i = 0; i < audio.length; i++)
-        {
-            bOut[i*2] = (byte)((audio[i] & 0xff00) >> 8);
-            bOut[i*2+1] = (byte)(audio[i] & 0xff);
+    /**
+     * Changes the volume of 16 bit audio
+     * Note that this modifies the input array
+     *
+     * @param audio  the audio data
+     * @param volume the amplification
+     * @return the adjusted audio
+     */
+    public short[] adjustVolumeMono(short[] audio, float volume) {
+        maxVolumes[index] = getMaximumMultiplier(audio, volume);
+        index = (index + 1) % maxVolumes.length;
+        float min = -1F;
+        for (float mul : maxVolumes) {
+            if (mul < 0F) {
+                continue;
+            }
+            if (min < 0F) {
+                min = mul;
+                continue;
+            }
+            if (mul < min) {
+                min = mul;
+            }
         }
-        out.write(bOut);
-        out.close();
+
+        float maxVolume = Math.min(min, volume);
+
+        for (int i = 0; i < audio.length; i++) {
+            audio[i] = (short) ((float) audio[i] * maxVolume);
+        }
+        return audio;
+    }
+
+    private static float getMaximumMultiplier(short[] audio, float multiplier) {
+        short max = 0;
+
+        for (short value : audio) {
+            short abs;
+            if (value <= Short.MIN_VALUE) {
+                abs = (short) Math.abs(value + 1);
+            } else {
+                abs = (short) Math.abs(value);
+            }
+            if (abs > max) {
+                max = abs;
+            }
+        }
+
+        return Math.min(multiplier, (float) MAX_AMPLIFICATION / (float) max);
+    }
+
+    public void rawToWave(short[] audio, final File waveFile) throws IOException {
+        byte[] rawData = new byte[audio.length*2];
+        final int RECORDER_SAMPLERATE = 1600;
+        for (int i = 0; i < audio.length; i++) {
+            rawData[i * 2] = (byte) (audio[i] & 0x00FF);
+            rawData[(i * 2) + 1] = (byte) (audio[i] >> 8);
+        }
+
+        DataOutputStream output = null;
+        try {
+            output = new DataOutputStream(new FileOutputStream(waveFile));
+            // WAVE header
+            // see http://ccrma.stanford.edu/courses/422/projects/WaveFormat/
+            writeString(output, "RIFF"); // chunk id
+            writeInt(output, 36 + audio.length*2); // chunk size
+            writeString(output, "WAVE"); // format
+            writeString(output, "fmt "); // subchunk 1 id
+            writeInt(output, 16); // subchunk 1 size
+            writeShort(output, (short) 1); // audio format (1 = PCM)
+            writeShort(output, (short) 1); // number of channels
+            writeInt(output, 44100); // sample rate
+            writeInt(output, RECORDER_SAMPLERATE * 2); // byte rate
+            writeShort(output, (short) 2); // block align
+            writeShort(output, (short) 16); // bits per sample
+            writeString(output, "data"); // subchunk 2 id
+            writeInt(output, audio.length*2); // subchunk 2 size
+            // Audio data (conversion big endian -> little endian)
+            ByteBuffer bytes = ByteBuffer.allocate(audio.length * 2);
+            for (short s : audio) {
+                bytes.putShort(s);
+            }
+
+            output.write(rawData);
+        } finally {
+            if (output != null) {
+                output.close();
+            }
+        }
+    }
+
+    private void writeInt(final DataOutputStream output, final int value) throws IOException {
+        output.write(value >> 0);
+        output.write(value >> 8);
+        output.write(value >> 16);
+        output.write(value >> 24);
+    }
+
+    private void writeShort(final DataOutputStream output, final short value) throws IOException {
+        output.write(value >> 0);
+        output.write(value >> 8);
+    }
+
+    private void writeString(final DataOutputStream output, final String value) throws IOException {
+        for (int i = 0; i < value.length(); i++) {
+            output.write(value.charAt(i));
+        }
     }
 }
