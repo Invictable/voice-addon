@@ -1,5 +1,3 @@
-# Simple Voice Chat API Bukkit Plugin Template
+Prototype for Hoplite's voice moderation system
 
-This is an example template plugin for the [Simple Voice Chat Plugin API](https://github.com/henkelmax/simple-voice-chat/blob/1.18.2/api/readme.md) for Bukkit based servers.
-
-Feel free to use this for your projects.
+saves last 30 seconds of Simple Voice Chat audio as a .wav
